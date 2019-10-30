@@ -30,7 +30,7 @@ function Header() {
 	return (
 		<TopBar>
 			<img src={logo} className="redux-logo" alt="logo" />
-			<h2>Track Mail.Ru, {year}</h2>
+			<h2>Atom Mail.Ru, {year}</h2>
 		</TopBar>
 	)
 }

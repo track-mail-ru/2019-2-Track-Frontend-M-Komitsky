@@ -1,7 +1,7 @@
 {
-	"name": "track-mail-2019-m-komitsky",
+	"name": "atom-mail-2019-m-komitsky",
 	"homepage": "https://your_gh_login.github.io/your_repo_name",
-	"description": "Mail.Ru Group Frontend Track course, 2019",
+	"description": "Mail.Ru Group Frontend Atom course, 2019",
 	"version": "0.1.0",
 	"author": "M Komitsky",
 	"dependencies": {
