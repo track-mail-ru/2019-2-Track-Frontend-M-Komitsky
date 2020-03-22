@@ -1,0 +1,99 @@
+.emojis {
+	display: flex;
+	justify-content: center;
+}
+
+.emoji {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.emoji:hover {
+	opacity: 0.8;
+}
+
+.kiss {
+	background: url('../assets/emojis/face-blowing-a-kiss.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.food {
+	background: url('../assets/emojis/face-savoring-food.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.fear {
+	background: url('../assets/emojis/face-screaming-in-fear.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.vomiting {
+	background: url('../assets/emojis/face-vomiting.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.mouth {
+	background: url('../assets/emojis/face-with-hand-over-mouth.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.bandage {
+	background: url('../assets/emojis/face-with-head-bandage.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.mask {
+	background: url('../assets/emojis/face-with-medical-mask.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.monocle {
+	background: url('../assets/emojis/face-with-monocle.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.mouth {
+	background: url('../assets/emojis/face-with-open-mouth.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.eyebrow {
+	background: url('../assets/emojis/face-with-raised-eyebrow.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.eyes {
+	background: url('../assets/emojis/face-with-rolling-eyes.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.nose {
+	background: url('../assets/emojis/face-with-steam-from-nose.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.mouth {
+	background: url('../assets/emojis/face-with-symbols-on-mouth.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.joy {
+	background: url('../assets/emojis/face-with-tears-of-joy.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.thermometer {
+	background: url('../assets/emojis/face-with-thermometer.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.tongue {
+	background: url('../assets/emojis/face-with-tongue.png?sprite') no-repeat;
+	background-size: 50px;
+}
+
+.mouth {
+	background: url('../assets/emojis/face-without-mouth.png?sprite') no-repeat;
+	background-size: 50px;
+}
