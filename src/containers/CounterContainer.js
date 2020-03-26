@@ -36,15 +36,15 @@ export class CounterContainer extends React.Component {
 					<div className="emoji bandage" />
 					<div className="emoji mask" />
 					<div className="emoji monocle" />
-					<div className="emoji mouth" />
+					<div className="emoji mouth2" />
 					<div className="emoji eyebrow" />
 					<div className="emoji eyes" />
 					<div className="emoji nose" />
-					<div className="emoji mouth" />
+					<div className="emoji mouth3" />
 					<div className="emoji joy" />
 					<div className="emoji thermometer" />
 					<div className="emoji tongue" />
-					<div className="emoji mouth" />
+					<div className="emoji mouth4" />
 				</div>
 				<Counter
 					counter={counter}
