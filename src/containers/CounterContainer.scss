@@ -1,0 +1,41 @@
+.emojis {
+	display: flex;
+	justify-content: center;
+}
+
+.emoji {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.emoji:hover {
+	opacity: 0.8;
+}
+
+$emojiList: (
+	'kiss': 'face-blowing-a-kiss',
+	'food': 'face-savoring-food',
+	'fear': 'face-screaming-in-fear',
+	'vomiting': 'face-vomiting',
+	'mouth': 'face-with-hand-over-mouth',
+	'bandage': 'face-with-head-bandage',
+	'mask': 'face-with-medical-mask',
+	'monocle': 'face-with-monocle',
+	'mouth2': 'face-with-open-mouth',
+	'eyebrow': 'face-with-raised-eyebrow',
+	'eyes': 'face-with-rolling-eyes',
+	'nose': 'face-with-steam-from-nose',
+	'mouth3': 'face-with-symbols-on-mouth',
+	'joy': 'face-with-tears-of-joy',
+	'thermometer': 'face-with-thermometer',
+	'tongue': 'face-with-tongue',
+	'mouth4': 'face-without-mouth',
+);
+
+@each $name, $emoji in $emojiList {
+  .#{$name} {
+	background: url('../assets/emojis/#{$emoji}.png?sprite') no-repeat;
+	background-size: 50px;
+  }
+}

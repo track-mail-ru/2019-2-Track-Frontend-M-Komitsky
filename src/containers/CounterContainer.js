@@ -5,7 +5,8 @@ import { connect } from 'react-redux';
 import Counter from '../components/Counter';
 import ActionTypes from '../constants/ActionTypes';
 import { incrementIfOdd } from '../actions/counter';
-import './CounterContainer.css';
+// import './CounterContainer.css';
+import './CounterContainer.scss';
 
 export class CounterContainer extends React.Component {
 	increment = () => {
